@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ruby on Rails Starter Application</title>
+   <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
+
+   <%= javascript_include_tag "application" %>
+   <%= stylesheet_link_tag 'application', media: 'all' %>
+
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<div class="container">
+<%= yield %>
+</div>
+</body>
+</html>
