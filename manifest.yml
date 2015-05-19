@@ -8,8 +8,8 @@ applications:
   domain: eu-gb.mybluemix.net
   instances: 1
   memory: 256M
-
+  
 declared-services: 
   statica-rails-sample-statica: 
     label: statica 
-    plan: Starter
+    plan: starter
