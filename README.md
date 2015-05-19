@@ -4,6 +4,8 @@ Bluemix provides a Ruby on Rails Starter Application as a template so that you c
 
 This sample includes an integration with [Statica](https://www.statica.io). For help please check out the [Statica Support](https://support.statica.io) site.
 
+[![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/getstatica/bluemix-rails-sample)
+
 ## Files
 
 The default directory structure of a generated Ruby on Rails application. If you want more information about Ruby on Rails application, you can refer to RubyOnRails.rdoc file.

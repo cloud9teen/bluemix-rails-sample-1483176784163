@@ -1,4 +1,10 @@
+declared-services: 
+  statica-rails-sample-statica: 
+    label: statica 
+    plan: Starter
 applications:
+- services
+  - statica-rails-sample-statica
 - disk_quota: 1024M
   host: statica-rails-sample
   name: statica-rails-sample
