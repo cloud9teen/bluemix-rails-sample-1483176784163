@@ -1,14 +1,15 @@
-declared-services: 
-  statica-rails-sample-statica: 
-    label: statica 
-    plan: Starter
 applications:
-- services
+- services:
   - statica-rails-sample-statica
-- disk_quota: 1024M
+  disk_quota: 1024M
   host: statica-rails-sample
   name: statica-rails-sample
   path: .
   domain: eu-gb.mybluemix.net
   instances: 1
   memory: 256M
+
+declared-services: 
+  statica-rails-sample-statica: 
+    label: statica 
+    plan: Starter
